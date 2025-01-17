@@ -55,7 +55,7 @@ Vous avez avez obtenu un succes!
 Vous avez avez obtenu un echec!
 ```
 
-## Question 04
+## Question 04 - Je père Mute !
 
 1. Déclarer 2 variables entière: x = 8 et y = 5
 2. Trouver une façon pour interchanger (permuter) le contenu des 2 variables de façon dynamique (c'est-à-dire qui s'adaptera et fonctionnera peu importe les valeurs initiales de x et y).
