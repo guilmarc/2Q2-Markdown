@@ -55,8 +55,17 @@ Vous avez avez obtenu un succes!
 Vous avez avez obtenu un echec!
 ```
 
-# Question 04
+## Question 04
 
-À venir...
+1. Déclarer 2 variables entière: x = 8 et y = 5
+2. Trouver une façon pour interchanger (permuter) le contenu des 2 variables de façon dynamique (c'est-à-dire qui s'adaptera et fonctionnera peu importe les valeurs initiales de x et y).
+3. Afficher les résultats AVANT et APRÈS la permutation. Par exemple, en console, on devrait voir:
+
+```
+Avant permutation x = 5 et y = 8.
+Après permutation x = 8 et y = 5.
+```
+
+ATTENTION: Cela doit fonctionner quand même avec d'autres valeurs sans rien changer d'autre que les valeurs elles-mêmes.
 
 <p align="Center"><img src="./images/end.png" alt="drawing" width="150"/></p>
