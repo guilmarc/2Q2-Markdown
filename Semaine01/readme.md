@@ -1,5 +1,6 @@
-<h1 align="Center">2Q2 - Programmation Assembleur</h1>
+
 <h1 align="Center">Exercices 01</h1>
+<h3 align="Center">2Q2 - Programmation Assembleur</h3>
 
 ## Contexte
 
@@ -20,50 +21,15 @@ Affichez votre prénom et votre nom à l'écran provenant de deux variables diff
 Cédrik Dubois!
 ```
 
-## Question 02 - ASCII
-
-Créer deux variables x=5 et y=9. Calculer la différence entre y et x et affichez la réponse à l'écran.
-
-```plaintext
-4
-```
-
-## Question 03 - Jump! Jump!
-
-Reproduire ce code C++ en assembleur et le faire rouler avec 85 comme note tout comme 50.
-
-```cpp
-int seuil = 60;
-int note = 85;
-string message ="Vous avez avez obtenu un";
-string succes = "succes"
-string echec = "echec";
-cout << message << " ";
-if(note >= seuil) {
-   cout << reussite;
-} else {
-   cout << echec;
-}
-cout << "!";
-```
-
-```plaintext
-Vous avez avez obtenu un succes!
-```
-
-```plaintext
-Vous avez avez obtenu un echec!
-```
-
-## Question 04 - Je père Mute !
+## Question 02 - Je père Mute !
 
 1. Déclarer 2 variables entière: x = 8 et y = 5
 2. Trouver une façon pour interchanger (permuter) le contenu des 2 variables de façon dynamique (c'est-à-dire qui s'adaptera et fonctionnera peu importe les valeurs initiales de x et y).
 3. Afficher les résultats AVANT et APRÈS la permutation. Par exemple, en console, on devrait voir:
 
 ```
-Avant permutation x = 5 et y = 8.
-Après permutation x = 8 et y = 5.
+Avant permutation x = 5 et y = 8
+Après permutation x = 8 et y = 5
 ```
 
 ATTENTION: Cela doit fonctionner quand même avec d'autres valeurs sans rien changer d'autre que les valeurs elles-mêmes.
