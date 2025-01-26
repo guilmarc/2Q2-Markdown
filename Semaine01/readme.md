@@ -2,6 +2,8 @@
 <h1 align="Center">Exercices 01</h1>
 <h3 align="Center">2Q2 - Programmation Assembleur</h3>
 
+### Lien vers les [notes de cours](https://slides.com/hkoncept/2q2-01/fullscreen?token=njXZpxb5) !
+
 ## Contexte
 
 Dans votre dossier `sources` et un sous-dossier au nom de l'exercice (exemple `\sources\exercices01`) créer une copie du template assembleur en le ré-enregistrant selon cette nomentlature `E`[Numéro de l'exercice]`Q`[Numéro de la question]`.ASM` (exemple: `E01Q01.ASM` pour la première question des l'exercices 01).
