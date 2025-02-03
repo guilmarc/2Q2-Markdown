@@ -16,27 +16,9 @@ Pour la remise vous compressez le dossier `exercices03` et placez le `.zip` sur 
 3. Les étiquettes doivent être en minuscule et tout le reste en majuscule.
 4. Vous devez **obligatoirement** commencer par coder votre solution en C++, une seule inscruction par ligne, dans Visual Studio. Enfin vous transcoder en `ASM8086` tout en conservant une **corrélation** avec le code `C++`.
 
-## 🔑 Question 01 🔑 Chu pas créatif !
 
-Cédrik à besoin d'aide à trouver des mots de passe pour ses inscriptions sur les sites web de développement.
 
-Il vous demande de l'aide dans son entreprise et vous payera 500$ pour lui produire un générateur de mot de passes dont la longueur est demandée à l'utilisateur ainsi que le nombre de mot de passes à générer.
-
-> Pour être valide le mot de passe doit obligatoirement avoir des minuscules, une majuscule et un caractère spécial (!$& etc) tout en respectant la taille **demandée à l'utilisateur.**
-
-> ATTENTION: Commencez à ne créer qu'un seul mot de passe pour débuter et, si réussis, passez à l'exercice suivant.
-
-```plaintext
-Quelle est la taille du mot de passe que tu souhaite générer ? 8
-
-Combien de mot(s) de passe souhaites-tu générer ? 3
-
-Mot de passe #1 = !adufM$@
-Mot de passe #2 = *fkijewP
-Mot de passe #3 = S039Kpl!
-```
-
-## 🙃 Question 02 🙃 Le monde à l'envers 
+## 🙃 Question 01 🙃 Le monde à l'envers 
 
 Un petit lutin malin s'est amusé à tout transformer en phrase à l'envers, aider le vieux sage aux yeux fatigués à lire le message du bon côté. Il faudra que votre algorithme fonctionne pour plusieurs différents messages tous encodés de la même façon.
 
@@ -62,7 +44,7 @@ msg1 DB "!!!OG ...1,2,3,4,5 snad tnednetne ednom el tuot euq ruop oloP ocraM iom
 msg1 DB "$" ; Je n'ai plus rien à dire alors la fenêtre console ne devrait même pas s'ouvrir avec ce message vide !
 ```
 
-## 🤐 Question 03 🤐 Reißverschluss!
+## 🤐 Question 02 🤐 Reißverschluss!
 
 Vous devez réussis à faire afficher le message 'caché' dans ces deux variables en copiant à tour de rôle un seul caractère du message #01 et ensuite du message #02 tel une fermeture éclair.
 
@@ -81,6 +63,31 @@ Vous obtiendrai alors le message secret :
 ```plaintext
 [404 - Message est secret]
 ```
+## 🔑 Question 03 🔑 Chu pas créatif !
 
+Cédrik à besoin d'aide à trouver des mots de passe pour ses inscriptions sur les sites web de développement.
 
+Il vous demande de l'aide dans son entreprise et vous payera 500$ pour lui produire un générateur de mot de passes dont la longueur est demandée à l'utilisateur.
+
+> Pour être valide le mot de passe doit obligatoirement avoir des minuscules, une majuscule et un caractère spécial (!$& etc) tout en respectant la taille **demandée à l'utilisateur.**
+
+```plaintext
+Quelle est la taille du mot de passe que tu souhaite générer ? 8
+
+Mot de passe = !adufM$@
+```
+
+## DÉFI : 🔑 Question 04 🔑 Chu VRAIMENT pas créatif !
+
+Reprendre la solution de la question 03 afin d'y permettre de générer plusieurs mots de passe.
+
+```plaintext
+Quelle est la taille du mot de passe que tu souhaite générer ? 8
+
+Combien de mot(s) de passe souhaites-tu générer ? 3
+
+Mot de passe #1 = !adufM$@
+Mot de passe #2 = *fkijewP
+Mot de passe #3 = S039Kpl!
+```
 <p align="Center"><img src="./images/end.png" alt="drawing" width="150"/></p>
