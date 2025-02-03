@@ -22,7 +22,10 @@ Cédrik à besoin d'aide à trouver des mots de passe pour ses inscriptions sur 
 
 Il vous demande de l'aide dans son entreprise et vous payera 500$ pour lui produire un générateur de mot de passes dont la longueur est demandée à l'utilisateur ainsi que le nombre de mot de passes à générer.
 
-> Pour être valide le mot de passe doit obligatoirement avoir des minusciles, une majuscule et un caractère spécial (!$& etc) tout en respectant la taille **demandée à l'utilisateur.**
+> Pour être valide le mot de passe doit obligatoirement avoir des minuscules, une majuscule et un caractère spécial (!$& etc) tout en respectant la taille **demandée à l'utilisateur.**
+
+> ATTENTION: Commencez à ne créer qu'un seul mot de passe pour débuter et, si réussis, passez à l'exercice suivant.
+
 ```plaintext
 Quelle est la taille du mot de passe que tu souhaite générer ? 8
 
@@ -30,16 +33,16 @@ Combien de mot(s) de passe souhaites-tu générer ? 3
 
 Mot de passe #1 = !adufM$@
 Mot de passe #2 = *fkijewP
-Mot de passe #3 = S039KKK!
+Mot de passe #3 = S039Kpl!
 ```
 
 ## 🙃 Question 02 🙃 Le monde à l'envers 
 
-Un petit lutin malin s'est amusé à tout transformer en phrase à l'envers, aider le vieux sorcier aux yeux fatigués à lire le message du bon côté. Il faudra que votre algorithme fonctionne pour plusieurs différents messages tous encodés de la même façon.
+Un petit lutin malin s'est amusé à tout transformer en phrase à l'envers, aider le vieux sage aux yeux fatigués à lire le message du bon côté. Il faudra que votre algorithme fonctionne pour plusieurs différents messages tous encodés de la même façon.
 
 > ATTENTION: Il est inutile de compter le nombre de caractère d'un message car tous les messages auront une taille différente !
 
-Voici les messages à lire, un à la fois avec votre algotithme :
+Voici les messages à lire, un à la fois avec votre algorithme :
 
 1. Premier message
 
@@ -63,7 +66,7 @@ msg1 DB "$" ; Je n'ai plus rien à dire alors la fenêtre console ne devrait mê
 
 Vous devez réussis à faire afficher le message 'caché' dans ces deux variables en copiant à tour de rôle un seul caractère du message #01 et ensuite du message #02 tel une fermeture éclair.
 
-Vous devez d'abord enregistrer le message dans une variable de destination avant de le réafficher, lettre par lettre.
+Vous devez d'abord enregistrer le message dans une variable de destination avant de le ré-afficher, lettre par lettre.
 
 > ATTENTION: Il est interdit d'utiliser l'interruption 09h
 
