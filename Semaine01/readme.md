@@ -1,6 +1,6 @@
 
 <h1 align="Center">Exercices 01</h1>
-<h3 align="Center">2Q2 - Programmation Assembleur</h3>
+<h3 align="Center">2Q2 - Développement Assembleur</h3>
 
 ### Lien vers les [notes de cours](https://slides.com/hkoncept/2q2-01/fullscreen?token=njXZpxb5) !
 
