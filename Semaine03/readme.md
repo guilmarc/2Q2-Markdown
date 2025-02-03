@@ -67,7 +67,7 @@ Vous obtiendrai alors le message secret :
 
 Cédrik à besoin d'aide à trouver des mots de passe pour ses inscriptions sur les sites web de développement.
 
-Il vous demande de l'aide dans son entreprise et vous payera 500$ pour lui produire un générateur de mot de passes dont la longueur est demandée à l'utilisateur.
+Il vous demande de l'aide dans son entreprise et vous payera 500$ pour lui produire un générateur de mot de passes (maximum 20 caractères) dont la longueur est demandée à l'utilisateur.
 
 > Pour être valide le mot de passe doit obligatoirement avoir des minuscules, une majuscule et un caractère spécial (!$& etc) tout en respectant la taille **demandée à l'utilisateur.**
 
