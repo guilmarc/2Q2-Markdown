@@ -51,7 +51,9 @@ Vous avez avez obtenu un echec!
 
 ## Question 03 - Mr. Alpha Baitte
 
-Écrivez l'alphabet à l'écran comme suit :
+Écrivez l'alphabet à l'écran comme suit en affichant les caractères un à la fois :
+
+> Interdit d'utiliser l'interruption DOS 09h.
 
 ```plaintext
 AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
