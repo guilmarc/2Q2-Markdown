@@ -30,11 +30,11 @@ Reproduire ce code C++ en assembleur et le faire rouler avec 85 comme note tout 
 int seuil = 60;
 int note = 85;
 string message ="Vous avez avez obtenu un";
-string succes = "succes"
+string succes = "succes";
 string echec = "echec";
 cout << message << " ";
 if(note >= seuil) {
-   cout << reussite;
+   cout << succes;
 } else {
    cout << echec;
 }
