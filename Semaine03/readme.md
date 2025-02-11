@@ -63,11 +63,24 @@ Vous obtiendrai alors le message secret :
 ```plaintext
 [404 - Message est secret]
 ```
-## 🔑 Question 03 🔑 Chu pas créatif !
 
+## 🔑 Question 03 🔑 As-tu le mot de passe ?
 Cédrik à besoin d'aide à trouver des mots de passe pour ses inscriptions sur les sites web de développement.
 
 Il vous demande de l'aide dans son entreprise et vous payera 500$ pour lui produire un générateur de mot de passes (maximum 9 caractères) dont la longueur est demandée à l'utilisateur.
+
+À la fin de votre algorithme, un mot de passe de la taille demandé devra être présent à l'écran.
+
+```plaintext
+Quelle est la taille du mot de passe que tu souhaite générer ? 8
+
+Mot de passe = sadufMe@
+```
+
+
+## DÉFI 🔑 Question 04 🔑 Sécurité !!!
+
+Reprenez la question 03 en ajoutant ces spécifications :
 
 > Pour être valide le mot de passe doit obligatoirement avoir des minuscules, une majuscule et un caractère spécial (!$& etc) tout en respectant la taille **demandée à l'utilisateur.**
 
@@ -77,17 +90,4 @@ Quelle est la taille du mot de passe que tu souhaite générer ? 8
 Mot de passe = !adufM$@
 ```
 
-## DÉFI : 🔑 Question 04 🔑 Chu VRAIMENT pas créatif !
-
-Reprendre la solution de la question 03 afin d'y permettre de générer plusieurs mots de passe.
-
-```plaintext
-Quelle est la taille du mot de passe que tu souhaite générer ? 8
-
-Combien de mot(s) de passe souhaites-tu générer ? 3
-
-Mot de passe #1 = !adufM$@
-Mot de passe #2 = *fkijewP
-Mot de passe #3 = S039Kpl!
-```
 <p align="Center"><img src="./images/end.png" alt="drawing" width="150"/></p>
