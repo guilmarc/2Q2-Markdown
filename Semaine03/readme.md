@@ -35,7 +35,7 @@ msg1 DB "!sretniop sel resilitu'd elitu siofrap tse lI$"
 2. Deuxième message
 
 ```
-msg1 DB "!!!OG ...1,2,3,4,5 snad tnednetne ednom el tuot euq ruop oloP ocraM iom-zeleppA"
+msg1 DB "!!!OG ...1,2,3,4,5 snad tnednetne ednom el tuot euq ruop oloP ocraM iom-zeleppA$"
 ```
 
 3. Troisième message
