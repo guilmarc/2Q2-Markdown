@@ -3,7 +3,7 @@
 
 # Exercices 04 - Les fichiers
 
-#### 📝 Lien vers les [notes de cours](https://slides.com/hkoncept/2q2-04?token=LZDfz3yW) !
+#### 📝 Lien vers les [notes de cours](https://slides.com/hkoncept/2q2-04/fullscreen?token=LZDfz3yW) !
 
 #### 📁 [Structures de projets & consignes à suivre](../includes/rules.md)
 
