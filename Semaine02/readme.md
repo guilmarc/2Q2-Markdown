@@ -1,20 +1,13 @@
-<h1 align="Center">Exercices 02</h1>
+<p align="Center"><img src="../includes/logo.png" alt="drawing" width="150"/></p>
 <h3 align="Center">2Q2 - Développement Assembleur</h3>
 
-### Lien vers les [notes de cours](https://slides.com/hkoncept/2q2-02?token=f6QnjBgl) !
+# Exercices 02 - Boucles & cie.
 
-## Contexte
+#### 📝 Lien vers les [notes de cours](https://slides.com/hkoncept/2q2-02?token=f6QnjBgl) !
 
-Dans votre dossier `sources` et un sous-dossier au nom de l'exercice (exemple `\sources\exercices02`) créer une copie du template assembleur en le ré-enregistrant selon cette nomentlature `E`[Numéro de l'exercice]`Q`[Numéro de la question]`.ASM` (exemple: `E02Q01.ASM` pour la première question des l'exercices 02).
+#### 📁 [Structures de projets & consignes à suivre](../includes/rules.md)
 
-## Consignes
-
-1. Vous devez **impérativement** utiliser et respecter le [template ASM8086](cshawi.info/bin/2q2/_TEMPLATE.ASM).
-2. Toutes les données numériques entières doivent être en hexadécimales minuscules (exemple: `21h`).
-3. Les étiquettes doivent être en minuscule et tout le reste en majuscule.
-4. Vous devez **obligatoirement** commencer par coder votre solution en C++ dans Visual Studio et le transférer dans votre `.ASM` par la suite. Enfin vous transcoder en ASM8086 tout en conservant une corrélation avec le code `C++`.
-
-## Question 01 - ASCII
+## 4️⃣ Question 01 - ASCII
 
 Créer deux variables x=5 et y=9. Calculer la différence entre y et x et affichez la réponse à l'écran.
 
@@ -22,7 +15,7 @@ Créer deux variables x=5 et y=9. Calculer la différence entre y et x et affich
 4
 ```
 
-## Question 02 - Jump! Jump!
+## 🦘 Question 02 - Jump! Jump!
 
 Reproduire ce code C++ en assembleur et le faire rouler avec 85 comme note tout comme 50.
 
@@ -49,7 +42,7 @@ Vous avez avez obtenu un succes!
 Vous avez avez obtenu un echec!
 ```
 
-## Question 03 - Mr. Alpha Baitte
+## 🔠 Question 03 - Mr. Alpha Baitte
 
 Écrivez l'alphabet à l'écran comme suit en affichant les caractères un à la fois :
 
@@ -61,7 +54,7 @@ AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
 
 > Utilisez le moins de ligne de code que possible !
 
-## Question 04 - Pablo Picasso del Shawinigan
+## 🎨 Question 04 - Pablo Picasso del Shawinigan
 
 Recréez simplement ce dessin à l'écran :
 
@@ -78,7 +71,7 @@ Recréez simplement ce dessin à l'écran :
 *
 ```
 
-## DÉFI Question 05 - Citations célèbres
+## 📢 *DÉFI* Question 05 - Citations célèbres <img src="../includes/logo.png" alt="drawing" width="20"/><img src="../includes/logo.png" alt="drawing" width="20"/><img src="../includes/logo.png" alt="drawing" width="20"/><img src="../includes/logo.png" alt="drawing" width="20" style="filter: grayscale(1);"/><img src="../includes/logo.png" alt="drawing" width="20" style="filter: grayscale(1);"/>  
 
 Élaborer un algorithme qui demandera une citation à l'utilisateur ainsi qu'un caractère précis et qui comptera le nombre d'occurence de ce caractère dans la citation.
 
@@ -90,4 +83,4 @@ Entrez une lettre à évaluer : e
 Il y a 5 e dans la citation "Vis chaque jour comme si c’était le dernier"
 ```
 
-<p align="Center"><img src="./images/end.png" alt="drawing" width="150"/></p>
+<hr><p align="Center"><img src="./images/end.png" alt="drawing" width="150"/></p>
