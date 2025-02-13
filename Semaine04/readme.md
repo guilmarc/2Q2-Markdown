@@ -7,7 +7,7 @@
 
 #### 📁 [Structures de projets & consignes à suivre](../includes/rules.md)
 
-## 🔂 Question 01 - Pet pi répète...
+## 🔂 Question 01 - Pet pis répète...
 
 L'idée est de créer un fichier nommé `repete.dat` et d'y inscrire `Pet pis répète s'en vont en bateau...`. Le texte doit se répéter dans le fichier, autant de fois que vous lancerez l'algorithme fonctionnel.
 
