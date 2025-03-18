@@ -76,7 +76,7 @@ Fibonacci #20 = 6765
 ## 🦺 Question 06 - FibonaSafe
 
 <p align="Center"><img src="./images/safe.png" alt="drawing" width="150"/></p>
-Reprennez votre solution de la question 04 et assurez-vous que l'utilisateur entre un nombre dont la réponse est gérable par ASM8086 (16 bits)...
+Reprennez votre solution de la question précédente et assurez-vous que l'utilisateur entre un nombre dont la réponse est gérable par ASM8086 (16 bits)...
 
 ## <img src="../includes/logo.png" alt="drawing" width="20"/> DÉFI - Question 07 - FibonaCursive
 
