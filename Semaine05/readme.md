@@ -64,7 +64,7 @@ Votre résultat est : 72
 
 ## 🔁 Question 04 - FibonaLoop
 
-Utilisant des procédures de la question précédente, demander un nombre à l'utilisateur et afficher ce nombre d'éléments de la suite de Fibonacci en utilisant une fonction `fibonacci`.
+Utilisant des procédures de la question précédente, demander un nombre à l'utilisateur et afficher ce nombre d'éléments de la suite de Fibonacci en utilisant une procédure `fibonacci`.
 
 ```plaintext
 Entrer un nombre : 30
@@ -73,7 +73,7 @@ Fibonacci #30 = 832040
 
 ## <img src="../includes/logo.png" alt="drawing" width="20"/> DÉFI - Question 05 - FibonaCursive
 
-Utilisant des procédures des questions précédentes, demander un nombre à l'utilisateur et afficher ce nombre d'éléments de la suite de Fibonacci en utilisant la méthode récursive. Il faudra donc appeler la fonction `fibonacci` dans la fonction `fibonacci`.
+Utilisant des procédures des questions précédentes, demander un nombre à l'utilisateur et afficher ce nombre d'éléments de la suite de Fibonacci en utilisant la méthode récursive. Il faudra donc appeler deux fois la procédure `fibonacci` dans la procédure `fibonacci`.
 
 ```plaintext
 Entrer un nombre : 30
