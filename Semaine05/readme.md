@@ -3,7 +3,7 @@
 
 # Exercices 05 - Les procédures
 
-#### 📝 Lien vers les [notes de cours](https://slides.com/hkoncept/2q2-04/fullscreen?token=3QPss-cZ) !
+#### 📝 Lien vers les [notes de cours](https://slides.com/hkoncept/2q2-05/fullscreen?token=3QPss-cZ) !
 
 #### 📁 [Structures de projets & consignes à suivre](../includes/rules.md)
 
@@ -61,8 +61,9 @@ Votre résultat est : 72
 
 1. Créer une procédure `multiplix` qui s'occupe de multiplier deux caractères numériques transformés en nombre entier grâce à la fonction `ascii2int`.
 2. Dans la fonction `multiplix` appelez également la procédure `int2ascii` pour afficher la valeur à l'écran.
-   
+
 ## 🔁 Question 04 - FibonaLoop
+
 Utilisant des procédures de la question précédente, demander un nombre à l'utilisateur et afficher ce nombre d'éléments de la suite de Fibonacci en utilisant une fonction `fibonacci`.
 
 ```plaintext
@@ -71,10 +72,12 @@ Fibonacci #30 = 832040
 ```
 
 ## <img src="../includes/logo.png" alt="drawing" width="20"/> DÉFI - Question 05 - FibonaCursive
-Utilisant des procédures des questions précédentes, demander un nombre à l'utilisateur et afficher ce nombre d'éléments de la suite de Fibonacci en utilisant la méthode récursive.  Il faudra donc appeler la fonction `fibonacci` dans la fonction `fibonacci`.
+
+Utilisant des procédures des questions précédentes, demander un nombre à l'utilisateur et afficher ce nombre d'éléments de la suite de Fibonacci en utilisant la méthode récursive. Il faudra donc appeler la fonction `fibonacci` dans la fonction `fibonacci`.
 
 ```plaintext
 Entrer un nombre : 30
 Fibonacci #30 = 832040
 ```
+
 <hr><p align="Center"><img src="./images/end.png" alt="drawing" width="150"/></p>
