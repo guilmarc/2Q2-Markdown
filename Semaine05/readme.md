@@ -47,7 +47,7 @@ Le directeur de la NASA est très satisfait de votre travail avec eux mais il vo
 2. `char2db` : "Convertir un char en byte".
 3. `db2char` : "Convertir un byte en char".
 
-## 🧮 Question 04 - Multiplix Back In Track !
+## 🧮 Question 04 - Multiplix Back In Track ! (Se transformera en votre TP#2)
 
 <p align="Center"><img src="./images/abaque.png" alt="drawing" width="150"/></p>
 Votre mission ici est de permettre à l'utilisateur de multiplier deux chiffres entrés du clavier et de donner la valeur à l'écran en utilisant deux procédures imbriquées (multiplication et affichage du résultat).
@@ -63,7 +63,7 @@ Votre résultat est : 72
 1. Créez une procédure `multiplix` qui s'occupe de multiplier deux caractères numériques transformés en nombre entier grâce à la procédure `char2db` codée à la question03.
 2. Dans la procédure `multiplix` appelez également la procédure `dw2string` pour afficher la valeur à l'écran.
 
-## 🔄 Question 05 - FibonaLoop
+## 🔄 Question 05 - FibonaLoop (Se transformeront en votre TP#3)
 
 <p align="Center"><img src="./images/fibonacci.jpg" alt="drawing" width="150"/></p>
 Utilisant des procédures de la question précédente, demandez un nombre à l'utilisateur et affichez ce nombre d'éléments de la suite de Fibonacci en utilisant une procédure `fibonacci`.
