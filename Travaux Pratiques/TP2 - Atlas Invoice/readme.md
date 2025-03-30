@@ -1,27 +1,72 @@
-<h1 align="Center">TP2 - Atlas Invoice</h1>
-<h3 align="Center">2Q2 - Développement Assembleur</h3>
+<p align="Center"><img src="../../includes/logo.png" alt="drawing" width="150"/></p>
+<h3 align="Center">2Q2 - Développement Assembleur - TP2 (3%)</h3>
 
-## Contexte
+# 💻 Atlas Informatique
 
-Dans votre dossier `sources` et un sous-dossier au nom de l'exercice (exemple `\sources\tp2`) créer une copie du template assembleur en le ré-enregistrant selon au nom de `tp2.asm`.
+#### 📁 [Structures de projets & consignes à suivre](../includes/rules.md)
 
-Pour la remise vous compressez le dossier `tp2` et placez le `.zip` sur Omnivox.
+### Mise en situation !
+La compagnie **Atlas Informatique** a besoin de vos talents pour créer un algorithme de recherche. Ils souhaitent être en mesure d'afficher les détails sur leurs [produits](./_bin/products.dat). Les clients entreront un code de produit et les détails de ce dernier s'afficheront à l'écran. L'algorithme n'aura pas de fin, dès que l'information d'un produit est à l'écran, l'utilisateur devra être en mesure d'entrer un nouveau code.
 
-## Consignes
-
-1. Vous devez **impérativement** utiliser et respecter le [template ASM8086](cshawi.info/bin/2q2/_TEMPLATE.ASM).
-2. Toutes les données numériques entières doivent être en hexadécimales minuscules (exemple: `21h`).
-3. Les étiquettes doivent être en minuscule et tout le reste en majuscule.
-4. Vous devez **obligatoirement** commencer par coder votre solution en C++, une seule instruction par ligne, dans Visual Studio. Enfin vous transcoder en `ASM8086` tout en conservant une **corrélation** avec le code `C++` que vous placerez **obligatoirement** en commentaire dans le fichier assembleur.
-
-## Multiplix
-Vous devez concevoir un algorithme ASM8086 permettant de multiplier deux nombres entre 1 et 100 que vous devrez valider pour enfin afficher le résultat à l'écran.
-
-```plaintext
-Entrer un premier nombre entre 1 et 100 : 150
-Entrer un premier nombre entre 1 et 100 : 98
-Entrer un deuxième nombre entre 1 et 100 : 65
-98 x 65 = 6370
 ```
+ATLAS INFORMATIQUE
+
+Code de produit : 336635
+
+Western Digital - WD Black SN850 1To
+Un choix parfait pour les gamers recherchant fluidité et rapidité.
+1799.36$
+
+Code de produit : 488884
+
+Produit non trouvé !
+
+Code de produit : 584780
+
+Apple - MacBook Air M2
+Une combinaison parfaite entre puissance et efficacité énergétique.
+220.68$
+
+; ...
+
+```
+
+## 💻 _DÉFI_ Atlas Informatique 
+
+**Atlas Informatique** a bien aimé votre logiciel de recherche de produits et souhaite maintenant que les produits ne défilent plus un par-dessus l'autre. Autrement dit, l'écran doit demeurer fixe.
+
+```
+ATLAS INFORMATIQUE
+
+Code de produit : 336635
+
+Western Digital - WD Black SN850 1To
+Un choix parfait pour les gamers recherchant fluidité et rapidité.
+1799.36$
+```
+
+...autre recherche :
+
+```
+ATLAS INFORMATIQUE
+
+Code de produit : 584780
+
+Apple - MacBook Air M2
+Une combinaison parfaite entre puissance et efficacité énergétique.
+220.68$
+```
+
+...autre recherche :
+
+```
+ATLAS INFORMATIQUE
+
+Code de produit : 488884
+
+Produit non trouvé !
+```
+
+💲 Un point bonus dans la session sera octroyé aux étudiants qui présenteront et expliqueronst __en personne__ une solution fonctionnelle à cette demande client.
 
 <p align="Center"><img src="./images/end.png" alt="drawing" width="150"/></p>
