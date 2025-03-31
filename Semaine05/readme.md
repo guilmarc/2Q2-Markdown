@@ -7,17 +7,41 @@
 
 #### 📁 [Structures de projets & consignes à suivre](../includes/rules.md)
 
-## 🔁 Question 01 - Le père Mute va mieux !
+## 🎨 Question 01 - Picasso Del Granby
 
-<p align="Center"><img src="./images/monk.jpg" alt="drawing" width="250"/></p>
-Reprendre la question 01 des exercices 01, (Le père Mute) et créez un algorithme très court qui permet de permuter les valeurs réelles de deux variables en mémoire. Codez l'affichage des valeurs de x et de y dans une procdure réutilisable.
+Demandez un caractère à l'utilisateur ainsi qu'un chiffre de 3 à 9 et lancez un procédure s'occupant de dessiner un carré avec ces données :
 
+```plaintext
+Entrez un caractère : *
+Taille du carré : 5
+*****
+*****
+*****
+*****
+*****
 ```
-Avant permutation x = 3 et y = 9
-Après permutation x = 9 et y = 3
+
+## ☀️ Question 02 - Bonne journée !
+
+Créer d'abord une procédure qui prendra en paramètre un nom (une chaîne de caractère) et qui souhaitera la bonne journée à cette personne.
+
+```plaintext
+Entrez votre nom : Cédrik
+Bonjour Cédrik !
 ```
 
-## 🚀 Question 02 - La NASA
+Ensuite, modifiez votre **algorithme principal** afin de lui permettre de saluer 5 fois en ligne la personne.
+
+```plaintext
+Entrez votre nom : Cédrik
+Bonjour Cédrik !
+Bonjour Cédrik !
+Bonjour Cédrik !
+Bonjour Cédrik !
+Bonjour Cédrik !
+```
+
+## 🚀 Question 03 - La NASA
 
 <p align="Center"><img src="./images/nasa.webp" alt="drawing" width="150"/></p>
 La NASA vous a octroyé un contrat de programmation d'une procédure d'affichage du décompte pré-lancement d'une fusée. Cette procédure doit afficher `Attention: X`, où X est le chiffre passé en paramètre (en 'int'). La procédure affichera `Décollage !!!` lorsque le chiffre passé en paramètre sera de zéro (0).
@@ -35,11 +59,11 @@ Attention: 1
 Décollage !!!
 ```
 
-## Question 03 - La NASA (dont vous êtes le héros) !
+## Question 04 - La NASA (dont vous êtes le héros) !
 
 <p align="Center"><img src="./images/heros.webp" alt="drawing" width="100"/></p>
 
-> Si vous avez créé trois procédures au total à la question 02, allez directement à la question 04 !
+> Si vous avez créé trois procédures divisant les différentes fonctions à la question 03, allez directement à la question 05 !
 
 Le directeur de la NASA est très satisfait de votre travail avec eux mais il vous demande de faire une copie de votre précédent projet et maintenant de le faire fonctionner avec 3 procédures :
 
@@ -47,7 +71,7 @@ Le directeur de la NASA est très satisfait de votre travail avec eux mais il vo
 2. `char2db` : "Convertir un char en byte".
 3. `db2char` : "Convertir un byte en char".
 
-## 🔄 Question 05 - FibonaLoop
+## <img src="../includes/logo.png" alt="drawing" width="20"/> DÉFI - Question 05 - FibonaLoop
 
 <p align="Center"><img src="./images/fibonacci.jpg" alt="drawing" width="150"/></p>
 Utilisant des procédures de la question précédente, demandez un nombre à l'utilisateur et affichez ce nombre d'éléments de la suite de Fibonacci en utilisant une procédure `fibonacci`.
@@ -57,12 +81,12 @@ Entrez un nombre : 20
 Fibonacci #20 = 6765
 ```
 
-## 🦺 Question 06 - FibonaSafe
+## <img src="../includes/logo.png" alt="drawing" width="20"/> DÉFI - Question 06 - FibonaSafe
 
 <p align="Center"><img src="./images/safe.png" alt="drawing" width="150"/></p>
 Reprennez votre solution de la question précédente et assurez-vous que l'utilisateur entre un nombre dont la réponse est gérable par ASM8086 (16 bits)...
 
-## <img src="../includes/logo.png" alt="drawing" width="20"/> DÉFI - Question 07 - FibonaCursive
+## <img src="../includes/logo.png" alt="drawing" width="20"/> DÉFI - Question 06 - FibonaCursive
 
 <p align="Center"><img src="./images/fibonacci-sequence.jpg" alt="drawing" width="150"/></p>
 Utilisant du matériel des questions précédentes, demandez un nombre à l'utilisateur et affichez ce nombre d'éléments de la suite de Fibonacci en utilisant la **méthode récursive**.
