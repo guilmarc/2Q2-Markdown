@@ -7,7 +7,7 @@
 
 ### Mise en situation !
 
-La compagnie **Atlas Informatique** a besoin de vos talents pour créer un algorithme de recherche. Ils souhaitent être en mesure d'afficher les détails sur leurs [produits](./_bin/products.dat). Les clients entreront un code de produit et les détails de ce dernier s'afficheront à l'écran. L'algorithme n'aura pas de fin, dès que l'information d'un produit est à l'écran, l'utilisateur devra être en mesure d'entrer un nouveau code.
+La compagnie **Atlas Informatique** a besoin de vos talents pour créer un algorithme de recherche. Ils souhaitent être en mesure d'afficher les détails sur leurs [produits](https://bin.cshawi.info/2q2/2025/products.dat). Les clients entreront un code de produit et les détails de ce dernier s'afficheront à l'écran. L'algorithme n'aura pas de fin, dès que l'information d'un produit est à l'écran, l'utilisateur devra être en mesure d'entrer un nouveau code.
 
 ```
 ATLAS INFORMATIQUE
