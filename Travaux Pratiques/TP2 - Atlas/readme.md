@@ -3,7 +3,7 @@
 
 # 💻 Atlas Informatique
 
-#### 📁 [Structures de projets & consignes à suivre](../includes/rules.md)
+#### 📁 [Structures de projets & consignes à suivre](../../includes/rules.md)
 
 ### Mise en situation !
 
