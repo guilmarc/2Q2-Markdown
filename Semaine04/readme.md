@@ -1,3 +1,4 @@
+
 <p align="Center"><img src="../includes/logo.png" alt="drawing" width="150"/></p>
 <h3 align="Center">2Q2 - Développement Assembleur</h3>
 
@@ -7,109 +8,88 @@
 #### 📝 Lien vers les [notes de cours](https://slides.com/hkoncept/2q2-04/fullscreen?token=LZDfz3yW) !
 -->
 
-#### 📁 [Structures de projets & consignes à suivre](../includes/rules.md)
+#### 🗄️ [Structures de projets & consignes à suivre](../includes/rules.md)
 
-## 🔂 Question 01 - Pet pis répète...
+## 📁 Question 01 - HelloWorld Files !
 
-L'idée est de créer un fichier nommé `repete.dat` et d'y inscrire `Pet pis répète s'en vont en bateau...`. Le texte doit se répéter dans le fichier, autant de fois que vous lancerez l'algorithme fonctionnel.
+Créez un fichier nommé `hellofile.txt` et placez-y le texte `Bienvenue dans le monde des fichiers !` en travaillant dans un seul algorithme, le main.
 
-Exemple, après 5 lancements de l'algorithme sans supprimer le fichier `repete.dat` ce dernier contiendra :
+## 🫡 Question 02 - SayHello !
 
-```plaintext
-Pet pis répète s'en vont en bateau...
-Pet pis répète s'en vont en bateau...
-Pet pis répète s'en vont en bateau...
-Pet pis répète s'en vont en bateau...
-Pet pis répète s'en vont en bateau...
-```
-
-## 🔂 Question 02 🔂 - ...s'en vont en bateau !
-
-Affichez le contenu du fichier `repete.dat` à l'écran en tenant compte du cas où le fichier serait absent (gestion des erreurs):
+Écrivez un algorithme qui permet d'afficher à la console le contenu du fichier `hellofile.txt` créé à la question 01.
 
 ```plaintext
-Pet pis répète s'en vont en bateau !
-Pet pis répète s'en vont en bateau !
-Pet pis répète s'en vont en bateau !
-Pet pis répète s'en vont en bateau !
-Pet pis répète s'en vont en bateau !
+Bienvenue dans le monde des fichiers !
 ```
 
-Dans le cas où le fichier n'existe pas:
+## ⚙️ Question 03 - HelloProc
+
+Transformez votre solution de la question 01 en respectant cette structure :
+| # | Procédure | Rôle | Entrées | Sortie |
+|---|-----------|------------------------------------------------------------|----------------------------------------------------------|-------------------|
+| 1 | openfile | Ouvrir un fichier pour écriture et fournir le handle | - Adresse du nom du fichier - Espace mémoire pour le handle | handle du fichier |
+| 2 | writemsg | Écrire, un à un, une chaîne de caractères dans un fichier jusqu'au caractère `$` | - handle du fichier - Adresse du message à écrire | aucune |
+
+> ATTENTION : Seules les instructions `PUSH`, `POP` et `CALL` sont permises dans le main.
+
+### Information complémentaire
+
+Les instructions `LEA` et `OFFSET` effectuent sensiblement le même travail. Elles chargent dans un registre ou sur la pile l'**adresse** mémoire de la cible.
+
+#### Pousser sur la pile l'adresse d'une variable `msg`
 
 ```plaintext
-Impossible d'ouvrir le fichier repete.dat
+LEA DX, msg
+PUSH DX
 ```
 
-## ✅ Question 03 - TFC, The Fabulous Corrector !
-
-Cédrik Dubogue a élaboré un [court rapport](./_bin/report.dat) de projet de développement. Cependant il éprouve certaines difficultés avec sa touche `Caps Lock` et les cases (majuscule et minuscules) sont passablement amochées.
-
-Une chance que tu es apte à lui générer automatiquement une version corrigée `report.txt` grâce à ton super algorithme de correction.
-
-## 💻 Question 04 - Atlas Informatique
-
-La compagnie **Atlas Informatique** a besoin de vos talents pour créer un algorithme de recherche. Ils souhaitent être en mesure d'afficher les détails sur leurs [produits](./_bin/products.dat). Les clients entreront un code de produit et les détails de ce dernier s'afficheront à l'écran. L'algorithme n'aura pas de fin, dès que l'information d'un produit est à l'écran, l'utilisateur devra être en mesure d'entrer un nouveau code.
+équivaut à
 
 ```
-ATLAS INFORMATIQUE
-
-Code de produit : 336635
-
-Western Digital - WD Black SN850 1To
-Un choix parfait pour les gamers recherchant fluidité et rapidité.
-1799.36$
-
-Code de produit : 488884
-
-Produit non trouvé !
-
-Code de produit : 584780
-
-Apple - MacBook Air M2
-Une combinaison parfaite entre puissance et efficacité énergétique.
-220.68$
-
-; ...
-
+PUSH OFFSET msg
 ```
 
-## 💻 _DÉFI_ Question 05 - Atlas Informatique <img src="../includes/logo.png" alt="drawing" width="20"/><img src="../includes/logo.png" alt="drawing" width="20"/><img src="../includes/logo.png" alt="drawing" width="20"/><img src="../includes/logo.png" alt="drawing" width="20" style="filter: grayscale(1);"><img src="../includes/logo.png" alt="drawing" width="20" style="filter: grayscale(1);"/>
+> Il ne faut pas refaire un `LEA` si ce que vous lisez est déjà une adresse mémoire, mais utiliser `MOV`.
 
-**Atlas Informatique** a bien aimé votre logiciel de recherche de produits et souhaite maintenant que les produits ne défilent plus un par-dessus l'autre. Autrement dit, l'écran doit demeurer fixe.
+## 🪵 Question 04 - Logger
 
-```
-ATLAS INFORMATIQUE
+Vous avez été embauché par __Infologique Inc.__ afin de vous occuper de l'assurance qualité de l'application web __RétroAction__. Vous êtes responsable de créer une mini-application qui servira à sauvegarder les erreurs survenues dans le système dans un fichier `log.dat`, comme dans l'exemple suivant :
 
-Code de produit : 336635
-
-Western Digital - WD Black SN850 1To
-Un choix parfait pour les gamers recherchant fluidité et rapidité.
-1799.36$
+```plaintext
+2025-05-02 à 11h35.20 : Redémarrage complet du système.
+2025-05-05 à 11h30.00 : Mot de passe mal validé.
+2025-05-05 à 11h30.01 : Ouverture de la page de profil ne fonctionne pas.
 ```
 
-...autre recherche :
+#### Visuel de l'application :
+```plaintext
+************************
+*      RétroAction     *
+************************
+Incident : Redémarrage complet du système.
 
-```
-ATLAS INFORMATIQUE
-
-Code de produit : 584780
-
-Apple - MacBook Air M2
-Une combinaison parfaite entre puissance et efficacité énergétique.
-220.68$
+Incident enregistré, appuyez sur une touche pour continuer...
 ```
 
-...autre recherche :
+...fermeture de l'application
 
+Ouverture de l'application 3 jours plus tard...
+
+```plaintext
+************************
+*      RétroAction     *
+************************
+Incident : Mot de passe mal validé
+
+Incident enregistré, appuyez sur une touche pour continuer...
 ```
-ATLAS INFORMATIQUE
 
-Code de produit : 488884
+```plaintext
+************************
+*      RétroAction     *
+************************
+Incident : Ouverture de la page de profil ne fonctionne pas
 
-Produit non trouvé !
+Incident enregistré, appuyez sur une touche pour continuer...
 ```
-
-💲 Un point bonus dans la session sera octroyé aux 5 premiers étudiants qui présenteront **en personne** une solution fonctionnelle à cette demande client.
-
 <hr><p align="Center"><img src="./images/end.png" alt="drawing" width="150"/></p>
