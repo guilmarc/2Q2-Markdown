@@ -51,45 +51,4 @@ PUSH OFFSET msg
 
 > Il ne faut pas refaire un `LEA` si ce que vous lisez est déjà une adresse mémoire, mais utiliser `MOV`.
 
-## 🪵 Question 04 - Logger
-
-Vous avez été embauché par __Infologique Inc.__ afin de vous occuper de l'assurance qualité de l'application web __RétroAction__. Vous êtes responsable de créer une mini-application qui servira à sauvegarder les erreurs survenues dans le système dans un fichier `log.dat`, comme dans l'exemple suivant :
-
-```plaintext
-2025-05-02 à 11h35.20 : Redémarrage complet du système.
-2025-05-05 à 11h30.00 : Mot de passe mal validé.
-2025-05-05 à 11h30.01 : Ouverture de la page de profil ne fonctionne pas.
-```
-
-#### Visuel de l'application :
-```plaintext
-************************
-*      RétroAction     *
-************************
-Incident : Redémarrage complet du système.
-
-Incident enregistré, appuyez sur une touche pour continuer...
-```
-
-...fermeture de l'application
-
-Ouverture de l'application 3 jours plus tard...
-
-```plaintext
-************************
-*      RétroAction     *
-************************
-Incident : Mot de passe mal validé
-
-Incident enregistré, appuyez sur une touche pour continuer...
-```
-
-```plaintext
-************************
-*      RétroAction     *
-************************
-Incident : Ouverture de la page de profil ne fonctionne pas
-
-Incident enregistré, appuyez sur une touche pour continuer...
-```
 <hr><p align="Center"><img src="./images/end.png" alt="drawing" width="150"/></p>
