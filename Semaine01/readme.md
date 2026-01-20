@@ -15,7 +15,8 @@ Affichez le chiffre 7 à l'écran.
 
 ## ➕ Question 02 - Registre+
 
-Entrez la valeur 4 dans le registre `AL`.  Additionnez-y la valeur 5 et affichez la somme à l'écran.     
+Entrez la valeur 4 dans le registre `AL`.  Additionnez-y la valeur 5 et affichez la somme à l'écran.
+> ASTUCE: Pour passer de numérique à ASCII, il faut ajouter la valeur numérique du caractère `0` (30h) au registre à afficher.     
 ```plaintext
 9
 ```
