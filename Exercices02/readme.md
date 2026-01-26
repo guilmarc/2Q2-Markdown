@@ -52,7 +52,24 @@ AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
 
 > Utilisez le moins de ligne de code que possible !
 
-## 🎨 Question 04 - Pablo Picasso del Shawinigan
+## 🚀 Question 04 - Rocketer
+
+Programmez une simulation de lancement de fusée !
+
+```plaintext
+9
+8
+7
+6
+5
+4
+3
+2
+1
+DÉCOLLAGE!!!
+```
+
+## 🎨 Question 05 - Pablo Picasso del Shawinigan
 
 Recréez simplement ce dessin à l'écran :
 
